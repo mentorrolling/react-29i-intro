@@ -1,7 +1,11 @@
 import React from "react";
+import { BrowserRouter } from "react-router-dom";
+import RoutesApp from "./routes/RoutesApp";
+
 // import CounterApp from "./components/CounterApp";
-import MensajesApp from "./components/MensajesApp";
+// import MensajesApp from "./components/MensajesApp";
 // import MoviesApp from "./components/MoviesApp";
+// import IntroApp from "./components/ciclo_vida/IntroApp";
 
 const App = () => {
   const valorInicial = 5;
@@ -18,7 +22,11 @@ const App = () => {
           <hr />
           {/* <MoviesApp /> */}
           {/* <CounterApp valor={valorInicial} mensaje={mensaje} /> */}
-          <MensajesApp />
+          {/* <MensajesApp /> */}
+          {/* <IntroApp /> */}
+          <BrowserRouter>
+            <RoutesApp />
+          </BrowserRouter>
         </div>
       </div>
     </div>

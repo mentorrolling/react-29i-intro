@@ -51,4 +51,9 @@ export const movies = [
   },
 ];
 
-// export default movies;
+// export const nombre='Josefina'
+
+// export {
+//   movies,
+//   nombre
+// }
