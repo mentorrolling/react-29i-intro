@@ -1,5 +1,6 @@
 import React from "react";
 import { BrowserRouter } from "react-router-dom";
+import Navbar from "./components/menu/Navbar";
 import RoutesApp from "./routes/RoutesApp";
 
 // import CounterApp from "./components/CounterApp";
@@ -25,6 +26,7 @@ const App = () => {
           {/* <MensajesApp /> */}
           {/* <IntroApp /> */}
           <BrowserRouter>
+            <Navbar />
             <RoutesApp />
           </BrowserRouter>
         </div>
